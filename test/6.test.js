@@ -23,7 +23,7 @@ const example = 'abc\n' +
 describe('6', () => {
 
   test('parseForm example', () => {
-    expect(Object.keys(parseForm(example)).length).toBe(5)
+    expect(Object.keys(parseForm(example).answers).length).toBe(5)
   })
 
   test('countUniqueAnswers example', () => {
